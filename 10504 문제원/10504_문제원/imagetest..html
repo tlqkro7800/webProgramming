@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--표를 활용한 이미지 연습-->
+    <table border = 1 >
+        <caption>고전 영화 리스트</caption>
+        <tr><td><img src="movie1.png" alt="no images"></td><td><img src="movie2.png" alt="no images"></td><td><img src="movie3.png" alt="no images"></td></tr>
+    </table>
+    <!--비디오 연습-->
+<!--
+autoplay
+controls
+loop
+poster
+muted
+src
+weidth, height-->
+<video src="movie.ogv" muted autoplay loop></video>
+<video src="trailer.webm" muted autoplay loop></video>
+<video width="640" height="480" controls>
+    <source src="trailer.mp4" type="video/mp4">
+    <source src="trailer.ogv" type="video/ogv">
+    <p>Your user agend does not support HTML5.</p>
+
+</video>
+</body>
+</html>
